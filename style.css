@@ -20,7 +20,6 @@ body{
 /* IMAGE */
 img{
   width: 500px;
-  padding-top: 95px;
   height: 100%;
 }
 
@@ -31,12 +30,40 @@ img{
   flex-direction: column;
 }
 
+form{
+  display: flex;
+  flex-direction: column;
+}
+
+input{
+  width: fit-content;
+  border: 3px solid grey;
+}
 
 button{
   width: fit-content;
   padding: 10px;
   background-color: red;
-  border: none;
   border-radius: 10px;
+  margin-top: 20px;
+  color: white;
+}
+
+button:hover{
+  opacity: 80%;
+  cursor: pointer;
+}
+
+a{ 
+  text-decoration: underline;
+  color: white;
+}
+
+footer > p, 
+a{
+  font-size: 16px;
+}
+
+footer{
   margin-top: 20px;
 }
